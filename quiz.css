@@ -1,0 +1,85 @@
+body {
+    margin: 20px auto;
+    padding: auto;
+    width: 50%;
+}
+
+.main {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    margin: 30px auto;
+    padding: 5px 20px;
+    border: 2px solid darkgray;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(101, 107, 105);
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 10px 15px 5px darkgrey;
+}
+
+hr {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.main p {
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.answer {
+    margin: 30px auto;
+}
+
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+    margin: 10px 40px;
+    border: 1px solid rgb(101, 107, 105);
+    background-color: rgb(101, 107, 105);
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+    background-color: green;
+    transition: .3s;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+button {
+    margin: auto;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(101, 107, 105);
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+
+button:hover {
+    background-color: red;
+}

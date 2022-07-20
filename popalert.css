@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #dedede;
+}
+
+.click,
+.pop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.click {
+    background: #2981bc;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #0059b3;
+    text-align: center;
+}
+
+.pop {
+    user-select: none;
+    width: 400px;
+    background: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #b3b3b3;
+    box-shadow: 0px 5px 10px(0, 0, 0, 2);
+    z-index: 9999;
+    border-radius: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+
+.pop i {
+    font-size: 60px;
+    color: #eb9447;
+    border: 1px solid #eb9447;
+    border-radius: 50%;
+    margin: -10px 0 20px 0;
+}
+
+.pop h1 {
+    font-size: 30px;
+    color: #1b2631;
+    margin-bottom: 5px;
+}
+
+.pop,
+label {
+    font-size: 23px;
+    color: #404040;
+}
+
+.pop,
+.btns {
+    margin: 40px 0px 0px 0px;
+}
+
+.btns .btn1,
+.btns .btn2 {
+    background: #999999;
+    color: white;
+    font-size: 18px;
+    padding: 10px 13px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.btns .btn2 {
+    background: #ff3333;
+    margin-left: 20px;
+    border: 1px solid #cc0000;
+}
+
+.btn2:hover {
+    transition: .5s;
+    background: #e60000;
+}
+
+.btn1:hover {
+    transition: .5s;
+    background: #8c8c8c;
+}
